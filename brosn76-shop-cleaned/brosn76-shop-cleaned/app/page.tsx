@@ -12,7 +12,7 @@ type Product = {
 
 const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6OULG4UMN6IXW1SV2qWq64NjQHc2jHhcIEvIv2R6Fl7MHPOK8ucy85xGam1K0eZ9P5gsM7cElpQYG/pub?output=csv";
 
-export default function Brosn76ShopTechNow() {
+export default function Brosn76() {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
